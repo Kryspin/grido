@@ -24,7 +24,7 @@ namespace Grido\DataSources;
  * @property-read int $limit
  * @property-read int $offset
  */
-class DibiFluent extends Base implements IDataSource
+class DibiFluent extends \Nette\Object implements IDataSource
 {
     /** @var \DibiFluent */
     protected $fluent;

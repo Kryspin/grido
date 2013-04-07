@@ -27,7 +27,7 @@ use Nette\Utils\Strings,
  * @property-read array $filterMapping
  * @property-read array $sortMapping
  */
-class Doctrine extends Base implements IDataSource
+class Doctrine extends \Nette\Object implements IDataSource
 {
     /** @var Doctrine\ORM\QueryBuilder */
     protected $qb;

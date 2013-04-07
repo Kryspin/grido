@@ -22,7 +22,7 @@ namespace Grido\DataSources;
  * @property-read array $data
  * @property-read \Nette\Database\Table\Selection $selection
  */
-class NetteDatabase extends Base implements IDataSource
+class NetteDatabase extends \Nette\Object implements IDataSource
 {
     /** @var \Nette\Database\Table\Selection */
     protected $selection;
